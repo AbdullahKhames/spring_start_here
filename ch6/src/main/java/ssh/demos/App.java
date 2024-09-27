@@ -21,6 +21,7 @@ public class App
         Comment comment = new Comment();
         comment.setText("Demo comment");
         comment.setAuthor("Natasha");
-        service.publishComment(comment);
+        log.info(service.publishComment(comment));
+//        service.deleteComment(comment);
     }
 }
